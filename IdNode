@@ -653,8 +653,19 @@ class IdNode extends ExpNode {
         myStrVal = strVal;
     }
 
+    public void link(Sym s){
+	mySym = s;	
+    }
+
+    public Sym s(){
+	return mySym; 
+    }
+
     public void unparse(PrintWriter p, int indent) {
         p.print(myStrVal);
+    }
+
+    public void nameAnalysis(SymTable t){
     }
 
     private int myLineNum;

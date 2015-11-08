@@ -1,0 +1,106 @@
+bool a;
+bool _a;
+int b_;
+void c;
+struct structTest{
+    bool x;
+    bool x;
+    int y;
+    void z;
+};
+
+struct structTest structInst;
+int boolFn(int x, int y) {
+    if ((b == (-1))) {
+        x = ((4 + (3 * 5)) - y);
+        while (c) {
+            y = ((y * 2) + x);
+        }
+    }
+    else {
+        x = 0;
+    }
+    if ((x == y)) {
+        return true;
+    }
+    if ((x != y)) {
+        return true;
+    }
+    if ((x > y)) {
+        return true;
+    }
+    if ((x < y)) {
+        return true;
+    }
+    if ((x <= y)) {
+        return true;
+    }
+    if ((x >= y)) {
+        return true;
+    }
+    if ((!x)) {
+        return true;
+    }
+    return false;
+}
+
+int function(int x, int y) {
+    int tmp;
+    cin >> tmp;
+    cout << "test output";
+    x = 10;
+    y = 5;
+    result = (first + second);
+    result = (first - second);
+    result = (first * second);
+    result = (first / second);
+    result = (first + second);
+    result = (first + second);
+    if (((first == 10) && (second == 5))) {
+        result = 100;
+    }
+    else {
+        result = 0;
+    }
+    if (((first == 10) || (ie == 10))) {
+        result = 1;
+    }
+    result++;
+    result--;
+    first = (-first);
+    result = ((-first) + second);
+    result = ((-first) - (-second));
+    result = (-(first * second));
+    result = (-(first / second));
+    result = (first = second);
+    ((structTest).structInst).x = true;
+    ((structTest).structInst).y = first;
+    ((structTest).structInst).z = null;
+    while ((first > second)) {
+        cout << "first is bigger";
+    }
+    while ((first <= second)) {
+        cout << "second is equal or bigger";
+    }
+    while (b1) {
+        b1 = true;
+    }
+    while (true) {
+        i3++;
+        cout << i3;
+        if ((i3 == 10)) {
+            while (true) {
+            }
+        }
+    }
+    return result;
+}
+
+void main() {
+    voidFn();
+}
+
+void voidFn() {
+    cout << "VOID";
+}
+
